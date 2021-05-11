@@ -11,7 +11,7 @@ function Activate () {
 
   if ((urday === 'Saturday' || urday === 'Sunday') && (urage >= 0 && urage <= 100)) {
     document.getElementById('output').innerHTML = ' It is time to relax'
-  } else if ((urday === 'Monday' || urday === 'Tuesday' || urday === 'Wensday' || urday === 'Thursday' || urday == 'Friday') && (urage >= 1 && urage <= 18)) {
+  } else if ((urday === 'Monday' || urday === 'Tuesday' || urday === 'Wensday' || urday === 'Thursday' || urday === 'Friday') && (urage >= 1 && urage <= 18)) {
     document.getElementById('output').innerHTML = ' It is time for school'
   } else {
     document.getElementById('output').innerHTML = ' It is time for work'
